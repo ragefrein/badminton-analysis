@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local runtime data and output
+.runtime/
+sessions/
+artifacts/
+*.mp4
+*.sqlite
+*.sqlite3
+*.db
+*.log
+tracking.csv
+session.json
+
+# Model weights
+models/*.pt
+models/*.pth
+models/*.onnx
+models/*.engine
+models/*.part
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+credentials*
+secrets*
+config.local.*
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
